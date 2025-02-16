@@ -8,13 +8,10 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: meng.28@osu.edu
+  google-scholar: MDKCNTsAAAAJ
   github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
-
+  twitter: jingbomeng
 ### jekyll settings
 
 # front matter defaults
