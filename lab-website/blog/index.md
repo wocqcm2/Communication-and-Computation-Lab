@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Blog (This Part will not be used)
 nav:
   order: 4
   tooltip: Musings and miscellany

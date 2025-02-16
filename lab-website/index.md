@@ -1,10 +1,9 @@
 ---
 ---
 
-# Lab Website Template
+# Lab Welcome Message
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+[Lab Welcome Message]This is the welcome message of the lab.
 
 {%
   include button.html

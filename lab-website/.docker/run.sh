@@ -19,10 +19,19 @@ if [[ $OSTYPE == msys* ]] || [[ $OSTYPE == cygwin* ]]; then
     WORKING_DIR=$(cmd //c cd)
 fi
 
+# 添加调试信息
+echo "Starting the script..."
+
 # build docker image
 docker build ${PLATFORM} \
     --tag ${IMAGE} \
-    --file ./.docker/Dockerfile . && \
+    --file ./.docker/Dockerfile .
+
+# 检查命令是否成功执行
+if [ $? -ne 0 ]; then
+    echo "Error: Command failed"
+    exit 1
+fi
 
 # run built docker image
 ${DOCKER_RUN} ${PLATFORM} \
@@ -35,3 +44,11 @@ ${DOCKER_RUN} ${PLATFORM} \
     --publish 35729:35729 \
     --volume "${WORKING_DIR}:/usr/src/app" \
     ${IMAGE} "$@"
+
+# 检查命令是否成功执行
+if [ $? -ne 0 ]; then
+    echo "Error: Command failed"
+    exit 1
+fi
+
+echo "Script completed successfully."
