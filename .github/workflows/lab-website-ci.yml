@@ -29,28 +29,30 @@ jobs:
         cd lab-website
         docker run --rm --volume "$(pwd):/usr/src/app" lab-website-renderer:latest bundle exec jekyll build
     
-    - name: Check for citation changes
-      id: git-check
+    - name: Git status
       run: |
-        cd lab-website
-        git add _data/citations.yaml
-        if git diff --staged --quiet; then
-          echo "changes=false" >> $GITHUB_OUTPUT
-        else
-          echo "changes=true" >> $GITHUB_OUTPUT
-        fi
+        git status
     
-    - name: Commit citation updates
-      if: steps.git-check.outputs.changes == 'true'
+    - name: Handle citations update
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        cd lab-website
-        git commit -m "Update citations via GitHub Actions"
         
-    - name: Push changes
-      if: steps.git-check.outputs.changes == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }} 
+        # 忽略缓存文件
+        cd lab-website
+        git update-index --skip-worktree _cite/.cache/cache.db || true
+        
+        # 检查citations.yaml是否有更改
+        git add _data/citations.yaml
+        
+        # 如果有更改，提交并推送
+        if ! git diff --staged --quiet; then
+          git commit -m "Update citations via GitHub Actions"
+          git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          echo "Citations updated and pushed."
+        else
+          echo "No changes to citations.yaml, skipping commit."
+        fi
+        
+        # 恢复对缓存文件的跟踪
+        git update-index --no-skip-worktree _cite/.cache/cache.db || true 
