@@ -1,6 +1,8 @@
-_site
-.sass-cache
-.jekyll-cache
+_cite/.cache/
+_cite/.cache/cache.db
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
 vendor
 debug.log
