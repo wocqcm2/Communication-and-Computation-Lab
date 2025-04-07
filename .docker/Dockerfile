@@ -1,5 +1,5 @@
 # start with official ruby docker image as base
-FROM ruby:3.1.2
+FROM docker.io/library/ruby:3.1.2
 
 # set working directory within container
 WORKDIR /usr/src/app
@@ -26,5 +26,6 @@ EXPOSE 4000
 EXPOSE 35729
 
 # run jekyll and cite process
-COPY .docker/entrypoint.sh /var
+COPY .docker/entrypoint.sh /var/entrypoint.sh
+RUN chmod +x /var/entrypoint.sh
 CMD [ "/var/entrypoint.sh" ]
