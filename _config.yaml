@@ -5,6 +5,9 @@ description: TBD
 header: images/OSU_background.jpg
 footer: images/OSU_background.jpg
 proofer: false
+# 添加网站URL配置
+url: "https://wocqcm2.github.io"
+baseurl: "/Communication-and-Computation-Lab"
 
 # site social media and other links
 links:
