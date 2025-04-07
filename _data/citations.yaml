@@ -470,6 +470,26 @@
   author-tag: meng
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.chb.2015.03.018
+  title: 'The Trojan Player Typology: A cross-genre, cross-cultural, behaviorally
+    validated scale of video game play motivations'
+  authors:
+  - Adam S. Kahn
+  - Cuihua Shen
+  - Li Lu
+  - Rabindra A. Ratan
+  - Sean Coary
+  - Jinghui Hou
+  - Jingbo Meng
+  - Joseph Osborn
+  - Dmitri Williams
+  publisher: Computers in Human Behavior
+  date: '2015-08-01'
+  link: https://doi.org/f7fhbf
+  orcid: 0000-0001-9120-2908
+  author-tag: meng
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1007/978-3-319-07632-4_15
   title: 'Social Network Representation and Dissemination of Pre-Exposure Prophylaxis
     (PrEP): A Semantic Network Analysis of HIV Prevention Drug on Twitter'
