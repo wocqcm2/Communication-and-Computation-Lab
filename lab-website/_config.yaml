@@ -9,7 +9,7 @@ proofer: false
 # site social media and other links
 links:
   email: meng.28@osu.edu
-  google-scholar: MDKCNTsAAAAJ
+  # google-scholar: MDKCNTsAAAAJ  # 注释掉Google Scholar配置
   github: your-lab
   twitter: jingbomeng
 ### jekyll settings

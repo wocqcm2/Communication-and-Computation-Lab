@@ -22,3 +22,13 @@ li {
     margin: 0;
   }
 }
+
+/* 项目卡片容器的样式 */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  margin: 30px 0;
+}

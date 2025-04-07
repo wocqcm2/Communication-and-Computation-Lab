@@ -1,22 +1,23 @@
 ---
 title: Publications
 nav:
-  order: 1
-  tooltip: Published works
+  order: 2
+  tooltip: Our published academic works
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our publications represent our contributions to the academic community, primarily focusing on communication theory, social networks, health information systems, and emerging technologies. Browse through our peer-reviewed journal articles and conference proceedings.
 
 {% include section.html %}
 
+<!-- Highlighted section temporarily disabled
 ## Highlighted
 
 {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 
 {% include section.html %}
+-->
 
 ## All
 

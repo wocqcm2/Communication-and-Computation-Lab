@@ -1,47 +1,23 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Online Health Social Network
+  image: images/health-network.jpg
+  description: Online health social networks are voluntarily formed social relationships among people who share similar health interests, concerns, and goals. It may take the forms of online support groups, online health social networking sites, or offline social relationships that have online presences for health-related purposes. Online health social networks have provided people with more opportunities to seek and exchange social support, which contributes to people's physical and mental well-being. Online social influence is also underway in spreading health behavior changes.
   tags:
-    - resource
+    - social networks
+    - health communication
+    - social support
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Artificial Intelligence for Mental Health
+  image: images/ai-mental-health.jpg
+  description: Recent years have witnessed a growing interest in understanding the effectiveness of using AI agents for delivering mental health services to people who are experiencing stress and depression. My primary interest is to bridge the gaps between interpersonal communication, human-computer interaction, and therapist-client communication to understand what and how should AI agents communicate so that they are considered as trustworthy and caring support providers and help to reduce people's stress through conversations.
   tags:
-    - resource
+    - artificial intelligence
+    - mental health
+    - human-computer interaction
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Communication Technology and Health
+  image: images/tech-health.jpg
+  description: Communication technologies have a profound influence on how people access and disseminate health information. Mobile sensing technology enables real-time monitoring of personal data that can be factored in to predict people's health behavior and conditions. Coupled with social networks formed via the Internet, people are able to easily observe others' health-related choices, magnifying social influence on health behaviors.
   tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - communication technology
+    - health behavior
+    - mobile sensing

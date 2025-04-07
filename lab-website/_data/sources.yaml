@@ -1,23 +1,38 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+# 这个文件可以添加自定义的文章引用
+# 以下是一个示例格式，当前已清空所有模板文章
+# 系统将使用ORCID来获取发表文章
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+# 排除无效的Web of Science记录
+- id: wosuid:WOS:000825875706068
+  remove: true
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: wosuid:WOS:000625875706068
+  remove: true
+
+- id: wosuid:PPRN:14763802
+  remove: true
+
+- id: wosuid:PPRN:22913350
+  remove: true
+
+# 为文章添加期刊封面图片
+- id: doi:10.1080/10447318.2024.2404262
+  image: https://www.tandfonline.com/action/showCoverImage?journalCode=hihc20
+
+- id: doi:10.1145/3579505
+  image: https://dl.acm.org/cms/asset/d82c9fac-f624-46fe-a86c-769e98129b48/pacmhci-cscw.jpg
+
+- id: doi:10.1016/J.CHB.2022.107594
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0747563222X00071-cov150h.gif
+
+- id: doi:10.1093/jcmc/zmac034
+  image: https://academic.oup.com/jcmc/issue/27/6/cover.png
+  
+
+# 示例：
+# - id: doi:10.xxxx/xxxxx
+#   type: paper
+#   image: https://example.com/image.jpg
+#   tags:
+#     - tag1
+#     - tag2
