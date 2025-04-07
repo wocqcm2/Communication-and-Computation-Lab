@@ -1,0 +1,56 @@
+name: Build and Deploy Lab Website
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Build the Lab Website Docker image
+      run: |
+        cd lab-website
+        docker build --tag lab-website-renderer:latest --file ./.docker/Dockerfile .
+    
+    - name: Run cite process to update citations
+      run: |
+        cd lab-website
+        docker run --rm --volume "$(pwd):/usr/src/app" lab-website-renderer:latest python3 _cite/cite.py
+    
+    - name: Build Jekyll site
+      run: |
+        cd lab-website
+        docker run --rm --volume "$(pwd):/usr/src/app" lab-website-renderer:latest bundle exec jekyll build
+    
+    - name: Check for citation changes
+      id: git-check
+      run: |
+        cd lab-website
+        git add _data/citations.yaml
+        if git diff --staged --quiet; then
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit citation updates
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        cd lab-website
+        git commit -m "Update citations via GitHub Actions"
+        
+    - name: Push changes
+      if: steps.git-check.outputs.changes == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }} 
