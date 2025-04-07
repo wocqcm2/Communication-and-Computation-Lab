@@ -16,22 +16,18 @@ jobs:
     
     - name: Build the Lab Website Docker image
       run: |
-        cd lab-website
         docker build --tag lab-website-renderer:latest --file ./.docker/Dockerfile .
     
     - name: Run cite process to update citations
       run: |
-        cd lab-website
         docker run --rm --volume "$(pwd):/usr/src/app" lab-website-renderer:latest python3 _cite/cite.py
     
     - name: Build Jekyll site
       run: |
-        cd lab-website
         docker run --rm --volume "$(pwd):/usr/src/app" lab-website-renderer:latest bundle exec jekyll build
     
     - name: Commit citation updates if any
       run: |
-        cd lab-website
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add _data/citations.yaml
