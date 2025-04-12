@@ -16,7 +16,7 @@
   author-tag: meng
   plugin: sources.py
   file: sources.yaml
-  image: https://www.tandfonline.com/action/showCoverImage?journalCode=hihc20
+  image: "images/publications/International-Journal-of-Human\u2013Computer-Interaction.jpg"
 - id: doi:10.1145/3579505
   title: 'Mediated Social Support for Distress Reduction: AI Chatbots vs. Human'
   authors:
@@ -32,7 +32,7 @@
   author-tag: meng
   plugin: sources.py
   file: sources.yaml
-  image: https://dl.acm.org/cms/asset/d82c9fac-f624-46fe-a86c-769e98129b48/pacmhci-cscw.jpg
+  image: images/publications/Proceedings-of-the-ACM-on-Human-Computer-Interaction.png
 - id: doi:10.1016/J.CHB.2022.107594
   title: Network effects on physical activity through interpersonal vs. masspersonal
     communication with the core and acquaintance networks
@@ -46,7 +46,7 @@
   author-tag: meng
   plugin: sources.py
   file: sources.yaml
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S0747563222X00071-cov150h.gif
+  image: images/publications/Computers-in-Human-Behavior.png
 - id: doi:10.1093/jcmc/zmac034
   title: 'When national identity meets conspiracies: the contagion of national identity
     language in public engagement and discourse about COVID-19 conspiracy theories'
@@ -63,7 +63,7 @@
   author-tag: meng
   plugin: sources.py
   file: sources.yaml
-  image: https://academic.oup.com/jcmc/issue/27/6/cover.png
+  image: images/publications/journal-of-computer-mediated-communication.jpg
 - id: doi:10.1027/1864-1105/A000309
   title: Avatar-Based Self-Influence in a Traditional CMC Environment
   authors:
@@ -77,8 +77,9 @@
   link: https://doi.org/g9dmg5
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Journal-of-Media-Psychology.png
 - id: doi:10.3390/IJERPH19116759
   title: 'Detecting Sentiment toward Emerging Infectious Diseases on Social Media:
     A Validity Evaluation of Dictionary-Based Sentiment Analysis'
@@ -93,8 +94,9 @@
   link: https://doi.org/g9dmg6
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/International-Journal-of-Environmental-Research-and-Public-Health.jpg
 - id: doi:10.1080/1369118X.2022.2085615
   title: 'Persuasive strategies in online health misinformation: a systematic review'
   authors:
@@ -106,8 +108,9 @@
   link: https://doi.org/g9dmg7
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Information-Communication-&-Society.jpg
 - id: doi:10.1080/10410236.2020.1853327
   title: 'Social Enhancement and Compensation in Online Social Support among Cancer
     Patients: The Role of Social Network Properties'
@@ -119,8 +122,9 @@
   link: https://doi.org/gpbrr6
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Health-Communication.jpg
 - id: doi:10.1002/9781119678816.IEHC0587
   title: Social Networks and Support Health Outcomes
   authors:
@@ -131,8 +135,9 @@
   link: https://doi.org/g9dmg8
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/The-International-Encyclopedia-of-Health-Communication.jpg
 - id: doi:10.1093/jcmc/zmab005
   title: 'Emotional Support from AI Chatbots: Should a Supportive Partner Self-Disclose
     or Not?'
@@ -144,8 +149,9 @@
   link: https://doi.org/gndkm7
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/journal-of-computer-mediated-communication.jpg
 - id: doi:10.1080/10410236.2019.1673947
   title: 'How Cancer Patients Benefit from Support Networks Offline and Online: Extending
     the Model of Structural-to-Functional Support'
@@ -158,8 +164,9 @@
   link: https://doi.org/g9dmg9
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Health-Communication.jpg
 - id: doi:10.1002/HBE2.258
   title: The association between depression and problematic smartphone behaviors through
     smartphone use in a clinical sample
@@ -171,8 +178,9 @@
   link: https://doi.org/gkghft
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Human-Behavior-and-Emerging-Technologies.jpg
 - id: doi:10.1037/pag0000569
   title: 'Multilayered social dynamics and depression among older adults: A 10-year
     cross-lagged analysis.'
@@ -185,8 +193,9 @@
   link: https://doi.org/gpbqq7
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Psychology-and-Aging.jpg
 - id: doi:10.1093/jcmc/zmz030
   title: Time-Dependent Effects of Relational Composition on the Success of Online
     Wellness Challenge Groups
@@ -200,8 +209,9 @@
   link: https://doi.org/gndkk7
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/journal-of-computer-mediated-communication.jpg
 - id: doi:10.1080/10410236.2019.1598616
   title: Confidant Network and Interpersonal Communication Associations with Depression
     in Older Adulthood
@@ -214,8 +224,9 @@
   link: https://doi.org/gpbqjp
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Health-Communication.jpg
 - id: doi:10.1016/J.CHB.2019.106181
   title: The role of identification in soliciting social support in online communities
   authors:
@@ -227,8 +238,9 @@
   link: https://doi.org/g6djkz
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Computers-in-Human-Behavior.png
 - id: doi:10.1177/2050157918761491
   title: Measuring smartphone usage and task switching with log tracking and self-reports
   authors:
@@ -245,8 +257,9 @@
   link: https://doi.org/gfc9z7
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Mobile-Media-&-Communication.jpg
 - id: doi:10.2196/10139
   title: 'Exploring User Needs for a Mobile Behavioral-Sensing Technology for Depression
     Management: Qualitative Study'
@@ -261,8 +274,9 @@
   link: https://doi.org/gdv5q8
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Journal-of-Medical-Internet-Research.jpg
 - id: doi:10.2196/preprints.10139
   title: 'Exploring User Needs for a Mobile Behavioral-Sensing Technology for Depression
     Management: Qualitative Study (Preprint)'
@@ -277,8 +291,9 @@
   link: https://doi.org/g9dmhb
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/JMIR-Publications-Inc.png
 - id: doi:10.1016/J.CHB.2018.07.039
   title: 'Diffusion size and structural virality: The effects of message and network
     features on spreading health information on twitter'
@@ -294,8 +309,9 @@
   link: https://doi.org/gfm7vs
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Computers-in-Human-Behavior.png
 - id: doi:10.1080/01463373.2018.1515782
   title: Personal Network Structure and Perceived Social Support in the Context of
     Intercultural Adjustment
@@ -308,8 +324,9 @@
   link: https://doi.org/gshd6v
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Communication-Quarterly.jpg
 - id: doi:10.2196/jmir.6537
   title: 'Online Self-Tracking Groups to Increase Fruit and Vegetable Intake: A Small-Scale
     Study on Mechanisms of Group Effect on Behavior Change'
@@ -323,8 +340,9 @@
   link: https://doi.org/gftpxv
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Journal-of-Medical-Internet-Research.jpg
 - id: doi:10.1186/s13012-017-0542-7
   title: "Pathways for best practice diffusion: the structure of informal relationships\
     \ in Canada\u2019s long-term care sector"
@@ -350,8 +368,9 @@
   link: https://doi.org/f9wsdk
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Implementation-Science.jpg
 - id: doi:10.1089/cyber.2016.0325
   title: 'Research on Social Networking Sites and Social Support from 2004 to 2015:
     A Narrative Review and Directions for Future Research'
@@ -366,8 +385,9 @@
   link: https://doi.org/f9m47m
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Cyberpsychology-Behavior-and-Social-Networking.jpg
 - id: doi:10.1007/S40615-016-0307-Z
   title: 'Erratum to: Exploring Willingness to Participate in Clinical Trials by Ethnicity'
   authors:
@@ -380,8 +400,9 @@
   link: https://doi.org/g9dmhc
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Journal-of-Racial-and-Ethnic-Health-Disparities.png
 - id: doi:10.1007/s40615-016-0280-6
   title: Exploring Willingness to Participate in Clinical Trials by Ethnicity
   authors:
@@ -394,8 +415,9 @@
   link: https://doi.org/g9dmhd
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Journal-of-Racial-and-Ethnic-Health-Disparities.png
 - id: doi:10.1080/10810730.2016.1153760
   title: 'A Comparison Between Caucasians and African Americans in Willingness to
     Participate in Cancer Clinical Trials: The Roles of Knowledge, Distrust, Information
@@ -410,8 +432,9 @@
   link: https://doi.org/grfvc8
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Journal-of-Health-Communication.jpg
 - id: doi:10.1080/10410236.2015.1079760
   title: 'Your Health Buddies Matter: Preferential Selection and Social Influence
     on Weight Management in an Online Health Social Network'
@@ -422,8 +445,9 @@
   link: https://doi.org/ggm3zs
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Health-Communication.jpg
 - id: doi:10.1080/10410236.2015.1027033
   title: Propagation of Information About Preexposure Prophylaxis (PrEP) for HIV Prevention
     Through Twitter
@@ -440,8 +464,9 @@
   link: https://doi.org/g9dmhf
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Health-Communication.jpg
 - id: doi:10.1111/jcom.12268
   title: 'Linking Network Structure to Support Messages: Effects of Brokerage and
     Closure on Received Social Support'
@@ -454,8 +479,9 @@
   link: https://doi.org/gftpxw
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Journal-of-Communication.jpg
 - id: doi:10.1016/j.chb.2015.06.007
   title: 'Channels matter: Multimodal connectedness, types of co-players and social
     capital for Multiplayer Online Battle Arena gamers'
@@ -468,8 +494,9 @@
   link: https://doi.org/f7q8wc
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Computers-in-Human-Behavior.png
 - id: doi:10.1016/j.chb.2015.03.018
   title: 'The Trojan Player Typology: A cross-genre, cross-cultural, behaviorally
     validated scale of video game play motivations'
@@ -488,8 +515,9 @@
   link: https://doi.org/f7fhbf
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Computers-in-Human-Behavior.png
 - id: doi:10.1007/978-3-319-07632-4_15
   title: 'Social Network Representation and Dissemination of Pre-Exposure Prophylaxis
     (PrEP): A Semantic Network Analysis of HIV Prevention Drug on Twitter'
@@ -506,8 +534,9 @@
   link: https://doi.org/g9dmhg
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Lecture-Notes-in-Computer-Science.jpg
 - id: doi:10.1177/0093650213476294
   title: The Roles and Interplay of Intragroup Conflict and Team Emotion Management
     on Information Seeking Behaviors in Team Contexts
@@ -520,8 +549,9 @@
   link: https://doi.org/g9dmhh
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Communication-Research.jpg
 - id: doi:10.5210/fm.v17i5.3718
   title: "Sharing as \u201Cfrands\u201D: Personified branding strategies on social\
     \ network sites in China"
@@ -534,8 +564,9 @@
   link: https://doi.org/g9dmhj
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/First-Monday.png
 - id: doi:10.1111/j.1460-2466.2011.01543.x
   title: Reinforcement of the Political Self Through Selective Exposure to Political
     Messages
@@ -547,8 +578,9 @@
   link: https://doi.org/c2bh5q
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Journal-of-Communication.jpg
 - id: doi:10.1177/0093650209333030
   title: Looking the Other Way
   authors:
@@ -559,5 +591,6 @@
   link: https://doi.org/b6fr29
   orcid: 0000-0001-9120-2908
   author-tag: meng
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/Communication-Research.jpg

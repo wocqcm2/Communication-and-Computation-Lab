@@ -11,13 +11,13 @@ Our publications represent our contributions to the academic community, primaril
 
 {% include section.html %}
 
-<!-- Highlighted section temporarily disabled
+{% comment %}
 ## Highlighted
 
 {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 
 {% include section.html %}
--->
+{% endcomment %}
 
 ## All
 
