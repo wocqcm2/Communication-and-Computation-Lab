@@ -5,6 +5,6 @@
 
   # wocqcm2's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[wocqcm2.github.io/Communication-and-Computation-Lab](https://wocqcm2.github.io/Communication-and-Computation-Lab)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
