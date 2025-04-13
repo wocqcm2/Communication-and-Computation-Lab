@@ -9,8 +9,6 @@ nav:
 
 Our research focuses on social communication, health information, and human-computer interaction. We explore how digital technologies affect interpersonal communication, health behaviors, and well-being.
 
-{% include tags.html tags="publication, resource, website" %}
-
 {% include search-info.html %}
 
 {% include section.html %}

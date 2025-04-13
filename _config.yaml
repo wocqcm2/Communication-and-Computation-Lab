@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: TBD LAB
+title: Communication and Computation Lab
 subtitle: School of Communication, Ohio State University
 description: TBD
 header: images/OSU_background.jpg
@@ -9,11 +9,17 @@ proofer: false
 url: "https://wocqcm2.github.io"
 baseurl: "/Communication-and-Computation-Lab"
 
+# GitHub Pages元数据配置，防止用户名覆盖网站标题
+github:
+  source:
+    branch: main
+  repository_name: Communication-and-Computation-Lab
+  repository_url: "https://github.com/wocqcm2/Communication-and-Computation-Lab"
+
 # site social media and other links
 links:
   email: meng.28@osu.edu
-  # google-scholar: MDKCNTsAAAAJ  # 注释掉Google Scholar配置
-  github: your-lab
+  google-scholar: MDKCNTsAAAAJ
   twitter: jingbomeng
 ### jekyll settings
 

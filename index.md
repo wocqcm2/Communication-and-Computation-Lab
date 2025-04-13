@@ -1,16 +1,9 @@
 ---
 ---
 
-# Lab Welcome Message
+# Welcome to Communication and Computation Lab
 
-[Lab Welcome Message]This is the welcome message of the lab.
-
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-
+The Communication and Computation Lab at Ohio State University examines the intersections of communication theory, social networks, and emerging technologies. Our interdisciplinary research explores how digital technologies shape human interaction, health behavior, and well-being in today's connected world.
 
 {% include section.html %}
 
@@ -18,7 +11,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research explores online health social networks, examining how digital connections influence health behaviors and outcomes. We study the dynamics of social support, information exchange, and behavior change in online health communities.
 
 {%
   include button.html
@@ -33,15 +26,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/firstPage/publication.png"
   link="research"
-  title="Our Research"
+  title="Our Publications"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We investigate how artificial intelligence can enhance mental health support and interventions. Our work bridges the gaps between interpersonal communication, human-computer interaction, and therapeutic practices to develop trustworthy AI-based support systems.
 
 {%
   include button.html
@@ -56,17 +49,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/firstPage/projects.png"
   link="projects"
-  title="Our Projects"
+  title="Our Research Projects"
   flip=true
-  style="bare"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our multidisciplinary team combines expertise in communication, computational methods, and health sciences. We collaborate across disciplines to address complex research questions about technology's role in health communication and behavior change.
 
 {%
   include button.html
@@ -81,7 +73,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/firstPage/teams.jpg"
   link="team"
   title="Our Team"
   text=text
