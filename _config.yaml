@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: Communication and Computation Lab
 subtitle: School of Communication, Ohio State University
-description: TBD
+description: Communication and Computation Lab
 header: images/OSU_background.jpg
 footer: images/OSU_background.jpg
 proofer: false
@@ -12,7 +12,7 @@ baseurl: "/Communication-and-Computation-Lab"
 # GitHub Pages元数据配置，防止用户名覆盖网站标题
 github:
   source:
-    branch: main
+    branch: gh-pages
   repository_name: Communication-and-Computation-Lab
   repository_url: "https://github.com/wocqcm2/Communication-and-Computation-Lab"
 
