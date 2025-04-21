@@ -13,19 +13,10 @@
 {% if title and title != "" %}
   {% assign fulltitle = fulltitle | push: title %}
 {% endif %}
-{% if site.title and site.title != "" %}
-  {% assign fulltitle = fulltitle | push: site.title %}
-{% endif %}
+{% assign fulltitle = fulltitle | push: "Communication and Computation for Well-Being Lab" %}
 {% assign fulltitle = fulltitle | join: " | " %}
 
-{% assign subtitle = site.subtitle %}
-
 {% assign description = page.description | default: site.description %}
-{% if site.subtitle %}
-  {% capture description -%}
-    {{ site.subtitle }}. {{ description }}
-  {%- endcapture %}
-{% endif %}
 {% capture url -%}
   {{ site.url }}{{ site.baseurl }}
 {%- endcapture %}
@@ -57,7 +48,7 @@
 <meta name="description" content="{{ description }}">
 
 <meta property="og:title" content="{{ title }}">
-<meta property="og:site_title" content="{{ site.title | xml_escape }}">
+<meta property="og:site_title" content="Communication and Computation for Well-Being Lab">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">

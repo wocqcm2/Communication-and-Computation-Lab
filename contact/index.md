@@ -19,7 +19,6 @@ Columbus, OH 43210
 
 ## Contacts
 
-Phone: (517)-355-3480  
 Email: meng.28@osu.edu
 
 

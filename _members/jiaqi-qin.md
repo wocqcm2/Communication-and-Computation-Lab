@@ -1,11 +1,11 @@
 ---
 name: Jiaqi Qin
-image: images/Jiaqi_Qin.jpg
-role: student
+image: images/team/Jiaqi_Qin.jpg
+role: graduate
 position: PhD Student
-affiliation: Department of Communication, MSU
+affiliation: School of Communication, Ohio State University
 links:
-  # 可以根据需要添加链接
+
 ---
 
-Jiaqi is a first-year doctoral student in the Department of Communication at MSU. Her research interest concerns online health social networks, social support, and well-being. She is also interested in learning computational research methods. 
+Jiaqi is a first-year doctoral student in the Department of Communication at MSU. Jiaqi is passionate about understanding how people utilize social networks for emotion regulation, social support seeking, and health information exchange in face of health challenges. 

@@ -16,16 +16,21 @@
   -->
 
   <div>
-    {% for link in site.links %}
-      {% assign key = link[0] %}
-      {% assign value = link[1] %}
-      {% include button.html type=key text="" link=value style="bare" %}
-    {% endfor %}
+    <!-- 硬编码联系方式 -->
+    <a href="mailto:meng.28@osu.edu" class="link" data-tooltip="Email" aria-label="email">
+      <i class="fas fa-envelope fa-lg"></i>
+    </a>
+    <a href="https://scholar.google.com/citations?user=MDKCNTsAAAAJ" class="link" data-tooltip="Google Scholar" aria-label="google-scholar">
+      <i class="fab fa-google fa-lg"></i>
+    </a>
+    <a href="https://twitter.com/jingbomeng" class="link" data-tooltip="Twitter" aria-label="twitter">
+      <i class="fab fa-twitter fa-lg"></i>
+    </a>
   </div>
 
   <div>
     &copy; {{ site.time | date: "%Y" }}
-    {{ site.title }}
+    Communication and Computation for Well-Being Lab
     &nbsp; | &nbsp; Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template

@@ -11,12 +11,20 @@ Our research team brings together talented students and collaborators with diver
 
 {% include section.html %}
 
-## Students
+## Director
 
-{% include list.html data="members" component="portrait" filter="role == 'student'" %}
+{% include list.html data="members" component="portrait" filter="role == 'director'" %}
 
-## Collaborators
+## Graduate Students
 
-{% include list.html data="members" component="portrait" filter="role == 'collaborator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'graduate'" %}
+
+## Undergraduate Students
+
+{% include list.html data="members" component="portrait" filter="role == 'undergraduate'" %}
+
+## Former Student Collaborators
+
+{% include list.html data="members" component="portrait" filter="role == 'former'" %}
 
 {% include section.html %}

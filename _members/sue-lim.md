@@ -1,11 +1,10 @@
 ---
 name: Sue Lim
-image: images/Sue_Lim.jpeg
-role: student
-position: PhD Student
-affiliation: Department of Communication, MSU
+image: images/team/Sue_Lim.jpeg
+role: undergraduate
+position: Undergraduate Research Assistant
+affiliation: School of Communication, Ohio State University
 links:
-  # 可以根据需要添加链接
 ---
 
-Sue is a first-year doctoral student in the Department of Communication at MSU. Sue received her master's degree in communication from the University of Wisconsin at Milwaukee. Her primary research interest concerns artificial intelligence in communicating credible health information and deliver mental health services. 
+Sue is an undergraduate student at Ohio State University majoring in Communication with a minor in Data Analytics. She assists with literature reviews, data collection, and preliminary data analysis for our research projects on health communication in digital environments. 

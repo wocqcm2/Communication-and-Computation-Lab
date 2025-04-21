@@ -11,29 +11,6 @@ The Communication and Computation Lab at Ohio State University examines the inte
 
 {% capture text %}
 
-Our research explores online health social networks, examining how digital connections influence health behaviors and outcomes. We study the dynamics of social support, information exchange, and behavior change in online health communities.
-
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/firstPage/publication.png"
-  link="research"
-  title="Our Publications"
-  text=text
-%}
-
-{% capture text %}
-
 We investigate how artificial intelligence can enhance mental health support and interventions. Our work bridges the gaps between interpersonal communication, human-computer interaction, and therapeutic practices to develop trustworthy AI-based support systems.
 
 {%
@@ -52,6 +29,29 @@ We investigate how artificial intelligence can enhance mental health support and
   image="images/firstPage/projects.png"
   link="projects"
   title="Our Research Projects"
+  text=text
+%}
+
+{% capture text %}
+
+Our research explores online health social networks, examining how digital connections influence health behaviors and outcomes. We study the dynamics of social support, information exchange, and behavior change in online health communities.
+
+{%
+  include button.html
+  link="research"
+  text="See our publications"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/firstPage/publication.png"
+  link="research"
+  title="Our Publications"
   flip=true
   text=text
 %}
