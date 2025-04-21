@@ -1,7 +1,7 @@
 # site properties and page defaults
-title: Communication and Computation Lab
-subtitle: School of Communication, Ohio State University
-description: Communication and Computation Lab
+title: wocqcm2
+subtitle: 
+description: An engaging 1-3 sentence description of your lab.
 header: images/OSU_background.jpg
 footer: images/OSU_background.jpg
 proofer: false
@@ -18,9 +18,9 @@ github:
 
 # site social media and other links
 links:
-  email: meng.28@osu.edu
+  email: contact@wocqcm2.com
   google-scholar: MDKCNTsAAAAJ
-  twitter: jingbomeng
+  twitter: wocqcm2
 ### jekyll settings
 
 # front matter defaults
